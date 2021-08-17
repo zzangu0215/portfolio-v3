@@ -18,12 +18,12 @@ function Menu({ currentPage, handlePageChange }) {
               Home
             </a>
           </li>
-          {/* <li>
-            <a href="#work" onClick={() => handlePageChange("Home")}>
-              Home
+          <li>
+            <a href="#AboutMe" onClick={() => handlePageChange("AboutMe")}>
+              AboutMe
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#home" onClick={() => handlePageChange("Home")}>
               Home
             </a>
