@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Menu from "./Menu/Menu";
 import Home from "./pages/Home/Home";
 import AboutMe from "./pages/AboutMe/AboutMe";
+import Projects from "./pages/Projects/Projects";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -12,6 +13,8 @@ export default function PortfolioContainer() {
         return <Home />;
       case "AboutMe":
         return <AboutMe />;
+      case "Projects":
+        return <Projects />;
       default:
         return <Home />;
     }
