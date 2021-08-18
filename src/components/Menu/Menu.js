@@ -28,11 +28,11 @@ function Menu({ currentPage, handlePageChange }) {
               Projects
             </a>
           </li>
-          {/* <li>
-            <a href="#home" onClick={() => handlePageChange("Home")}>
-              Home
+          <li>
+            <a href="#contact" onClick={() => handlePageChange("Contact")}>
+              Contact
             </a>
-          </li> */}
+          </li>
         </ul>
       </nav>
     </div>

@@ -3,6 +3,7 @@ import Menu from "./Menu/Menu";
 import Home from "./pages/Home/Home";
 import AboutMe from "./pages/AboutMe/AboutMe";
 import Projects from "./pages/Projects/Projects";
+import Contact from "./pages/Contact/Contact";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -15,6 +16,8 @@ export default function PortfolioContainer() {
         return <AboutMe />;
       case "Projects":
         return <Projects />;
+      case "Contact":
+        return <Contact />;
       default:
         return <Home />;
     }
