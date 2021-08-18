@@ -70,6 +70,7 @@
 }
 
 .nav {
+  opacity: 0.75;
   position: fixed;
   top: 33px;
   right: 50px;
