@@ -162,7 +162,7 @@ textarea:hover {
 }
 
 #submit {
-  width: 502px;
+  width: 470px;
 
   padding: 0;
   margin: -5px 0px 0px 0px;
@@ -175,9 +175,14 @@ textarea:hover {
   cursor: pointer;
 
   border: solid 1px #b3aca7;
-  border-top: none;
 }
 
 #submit:hover {
   color: #e2dedb;
+}
+
+.message-chars-left {
+  width: 600px;
+  margin: auto;
+  text-align: left;
 }
