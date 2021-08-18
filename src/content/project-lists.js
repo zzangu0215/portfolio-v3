@@ -1,4 +1,11 @@
 import myknlThumbnail from "./thumbnails/myknl-thumbnail.PNG";
+import fantomThumbnail from "./thumbnails/fantom-thumbnail.PNG";
+import employeeTrackerThumbnail from "./thumbnails/employee-tracker-thumbnail.PNG";
+import teamPFGThumbnail from "./thumbnails/teamPFG-thumbnail.PNG";
+import reademeGENThumbnail from "./thumbnails/readmeGEN-thumbnail.PNG";
+import weatherDashboardThumbnail from "./thumbnails/weather-dashboard-thumbnail.PNG";
+import schedulerThumbnail from "./thumbnails/scheduler-thumbnail.PNG";
+import codequizThumbnail from "./thumbnails/codequiz-thumbnail.PNG";
 
 const projectsData = [
   {
@@ -17,7 +24,7 @@ const projectsData = [
     id: 2,
     name: "FANTOM",
     isTeamProject: true,
-    thumbnail: "fantom-thumbnail.PNG",
+    thumbnail: fantomThumbnail,
     description:
       "Do you want to explore about your favorite MARVEL heroes? You should checkout our FANTOM app to get more familiar with your favorite heroes!",
     github_link: "https://github.com/zzangu0215/fantom",
@@ -28,7 +35,7 @@ const projectsData = [
     id: 3,
     name: "Employee Tracker",
     isTeamProject: false,
-    thumbnail: "employee-tracker-thumbnail.PNG",
+    thumbnail: employeeTrackerThumbnail,
     description:
       "As a business owner, don't you want to manage your employees, their roles, and their deparmtnets? It's time to use Employee Tracker to fulfill your needs!",
     github_link: "https://github.com/zzangu0215/employee-tracker",
@@ -38,7 +45,7 @@ const projectsData = [
     id: 4,
     name: "Team Profile Generator",
     isTeamProject: false,
-    thumbnail: "teamPFG-thumbnail.PNG",
+    thumbnail: teamPFGThumbnail,
     description:
       "As a project manager, don't you want to have a nice team profile page? Let my Team Profile Generator do that for you! Just run my app and type information of you and your team members!",
     github_link: "https://github.com/zzangu0215/Team-Profile-Generator",
@@ -48,7 +55,7 @@ const projectsData = [
     id: 5,
     name: "Professional README Generator",
     isTeamProject: false,
-    thumbnail: "readmeGEN-thumbnail.PNG",
+    thumbnail: reademeGENThumbnail,
     description:
       "Do you want to save your time on making README.md for your project? You should checkout my Professional README Generator to make your life easier!",
     github_link: "https://github.com/zzangu0215/Professional_README_Generator",
@@ -58,7 +65,7 @@ const projectsData = [
     id: 6,
     name: "Weather Dashboard",
     isTeamProject: false,
-    thumbnail: "weather-dashboard-thumbnail.PNG",
+    thumbnail: weatherDashboardThumbnail,
     description:
       "Do you want to search weather for your favorite cities? Come to my Weather Dashboard to be a forecaster!",
     github_link: "https://github.com/zzangu0215/Weather_Dashboard",
@@ -69,7 +76,7 @@ const projectsData = [
     id: 7,
     name: "Work Day Scheduler",
     isTeamProject: false,
-    thumbnail: "scheduler-thumbnail.PNG",
+    thumbnail: schedulerThumbnail,
     description:
       "If you want to organize your daily schedule? Come to my Work Day Scheduler to put your schedules!",
     github_link: "https://github.com/zzangu0215/Work_Day_Scheduler",
@@ -80,7 +87,7 @@ const projectsData = [
     id: 8,
     name: "Code Quiz Challenge",
     isTeamProject: false,
-    thumbnail: "codequiz-thumbnail.PNG",
+    thumbnail: codequizThumbnail,
     description:
       "If you want to test out your knowledge of JavaScript? Come take a well-made quiz here! Jun's Code Quiz",
     github_link: "https://github.com/zzangu0215/Code_Quiz_Challenge",

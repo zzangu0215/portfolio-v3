@@ -4,6 +4,8 @@ function ProjectCards(props) {
   // const url = `process.env.PUBLIC_URL/thumbnails/${props.thumbnail}`;
   const cardBgImg = {
     backgroundImage: `url(${props.thumbnail})`,
+    backgroundSize: "cover",
+    borderRadius: "1em",
   };
 
   return (
@@ -15,7 +17,7 @@ function ProjectCards(props) {
           </a>
           <p>{props.description}</p>
           <a href={props.github_link}>
-            <div className="date">Github</div>
+            <div className="date">Github Repository</div>
           </a>
           <div className="tags">
             <div className="tag">HTML</div>
