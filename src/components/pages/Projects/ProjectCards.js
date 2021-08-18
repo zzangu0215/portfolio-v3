@@ -1,5 +1,4 @@
 import React from "react";
-import "./Projects.css";
 
 function ProjectCards(props) {
   const url = `./thumbnails/${props.thumbnail}`;

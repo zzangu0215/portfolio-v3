@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCards from "./ProjectCards";
+import "./Projects.css";
 
 const projectLists = require("./project-lists");
 
@@ -7,7 +8,7 @@ function Projects() {
   return (
     <div>
       <h1 className="projects">Projects</h1>
-      <div>
+      <div className="row projects">
         {projectLists.map((project) => (
           <ProjectCards
             key={project.id}
