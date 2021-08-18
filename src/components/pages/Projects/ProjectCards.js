@@ -2,12 +2,19 @@ import React from "react";
 import "./Projects.css";
 
 function ProjectCards(props) {
+  const url = `./thumbnails/${props.thumbnail}`;
+  const cardBgImg = {
+    backgroundImage: url,
+  };
+
   return (
     <div className="cards-wrapper">
-      <div className="card-grid-space">
-        <a className="card" href={props.deployed_link}>
+      <div className="card-grid-space" style={cardBgImg}>
+        <div className="card">
           <div>
-            <h1>{props.name}</h1>
+            <a href={props.deployed_link}>
+              <h1>{props.name}</h1>
+            </a>
             <p>{props.description}</p>
             <a href={props.github_link}>
               <div className="date">Github</div>
@@ -16,7 +23,7 @@ function ProjectCards(props) {
               <div className="tag">HTML</div>
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </div>
   );

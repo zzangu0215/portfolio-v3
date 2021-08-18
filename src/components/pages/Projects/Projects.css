@@ -60,7 +60,6 @@ a {
 
 .card p {
   font-size: 0.75em;
-  font-family: "Open Sans";
   margin-top: 0.5em;
   line-height: 2em;
 }
@@ -109,7 +108,7 @@ a {
 }
 
 .card:before {
-  background: #ddd;
+  /* background: #ddd; */
   width: 250%;
   height: 250%;
 }
