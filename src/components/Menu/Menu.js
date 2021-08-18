@@ -10,7 +10,7 @@ function Menu({ currentPage, handlePageChange }) {
         id="menu-icon"
         name="menu-icon"
       />
-      <label for="menu-icon"></label>
+      <label htmlFor="menu-icon"></label>
       <nav className="nav">
         <ul className="pt-5">
           <li>
@@ -19,16 +19,16 @@ function Menu({ currentPage, handlePageChange }) {
             </a>
           </li>
           <li>
-            <a href="#AboutMe" onClick={() => handlePageChange("AboutMe")}>
+            <a href="#aboutme" onClick={() => handlePageChange("AboutMe")}>
               AboutMe
             </a>
           </li>
-          {/* <li>
-            <a href="#home" onClick={() => handlePageChange("Home")}>
-              Home
+          <li>
+            <a href="#projects" onClick={() => handlePageChange("Projects")}>
+              Projects
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#home" onClick={() => handlePageChange("Home")}>
               Home
             </a>

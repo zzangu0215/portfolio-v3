@@ -1,5 +1,6 @@
 const projectsData = [
   {
+    id: 1,
     name: "MyKNL ZAP",
     isTeamProject: true,
     thumbnail: "myknl-thumbnail.PNG",
@@ -11,6 +12,7 @@ const projectsData = [
       "HTML, CSS, JavaScript, js-Datepicker, Express, Sequelize, MySQL",
   },
   {
+    id: 2,
     name: "FANTOM",
     isTeamProject: true,
     thumbnail: "fantom-thumbnail.PNG",
@@ -21,6 +23,7 @@ const projectsData = [
     technologies: "HTML, CSS, JavaScript, BootStrap, jQuery",
   },
   {
+    id: 3,
     name: "Employee Tracker",
     isTeamProject: false,
     thumbnail: "employee-tracker-thumbnail.PNG",
@@ -30,6 +33,7 @@ const projectsData = [
     technologies: "JavaScript, Node.js, Inquirer, MySQL",
   },
   {
+    id: 4,
     name: "Team Profile Generator",
     isTeamProject: false,
     thumbnail: "teamPFG-thumbnail.PNG",
@@ -39,6 +43,7 @@ const projectsData = [
     technologies: "JavaScript, Node.js, Inquirer, Jest",
   },
   {
+    id: 5,
     name: "Professional README Generator",
     isTeamProject: false,
     thumbnail: "readmeGEN-thumbnail.PNG",
@@ -48,6 +53,7 @@ const projectsData = [
     technologies: "JavaScript, Node.js, Inquirer",
   },
   {
+    id: 6,
     name: "Weather Dashboard",
     isTeamProject: false,
     thumbnail: "weather-dashboard-thumbnail.PNG",
@@ -58,6 +64,7 @@ const projectsData = [
     technologies: "HTML, CSS, JavaScript, jQuery",
   },
   {
+    id: 7,
     name: "Work Day Scheduler",
     isTeamProject: false,
     thumbnail: "scheduler-thumbnail.PNG",
@@ -68,6 +75,7 @@ const projectsData = [
     technologies: "HTML, CSS, JavaScript, jQuery",
   },
   {
+    id: 8,
     name: "Code Quiz Challenge",
     isTeamProject: false,
     thumbnail: "codequiz-thumbnail.PNG",
