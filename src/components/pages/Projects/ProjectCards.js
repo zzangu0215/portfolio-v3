@@ -1,9 +1,9 @@
 import React from "react";
 
 function ProjectCards(props) {
-  const url = `./thumbnails/${props.thumbnail}`;
+  // const url = `process.env.PUBLIC_URL/thumbnails/${props.thumbnail}`;
   const cardBgImg = {
-    backgroundImage: url,
+    backgroundImage: `url(${props.thumbnail})`,
   };
 
   return (

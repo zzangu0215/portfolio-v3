@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCards from "./ProjectCards";
 import "./Projects.css";
 
-const projectLists = require("./project-lists");
+import projectLists from "../../../content/project-lists";
 
 function Projects() {
   return (

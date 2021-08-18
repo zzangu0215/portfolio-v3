@@ -1,9 +1,11 @@
+import myknlThumbnail from "./thumbnails/myknl-thumbnail.PNG";
+
 const projectsData = [
   {
     id: 1,
     name: "MyKNL ZAP",
     isTeamProject: true,
-    thumbnail: "myknl-thumbnail.PNG",
+    thumbnail: myknlThumbnail,
     description:
       "This app allows pet owners to be able to easily book a reservation at their local pet hotel. Users will be able to make an account with their own pet and reservation data.",
     github_link: "https://github.com/zzangu0215/zzangu-and-the-pals",
@@ -87,4 +89,4 @@ const projectsData = [
   },
 ];
 
-module.exports = projectsData;
+export default projectsData;
