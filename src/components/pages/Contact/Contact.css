@@ -186,3 +186,16 @@ textarea:hover {
   margin: auto;
   text-align: left;
 }
+
+.status-message {
+  justify-content: center;
+  opacity: 0;
+}
+.success {
+  opacity: 1;
+  color: green;
+}
+.failure {
+  opacity: 1;
+  color: red;
+}
