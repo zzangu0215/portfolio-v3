@@ -79,7 +79,7 @@ a {
 
 .card .github {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
   font-size: 0.75em;
   padding: 1em;
@@ -164,9 +164,14 @@ a {
 
 .group-projects,
 .personal-projects {
+  font-family: "Montserrat", sans-serif;
   font-size: 2em;
   margin-block-end: 0em;
   text-align: center;
+}
+
+.group-projects {
+  margin-top: 40px;
 }
 
 /* MEDIA QUERIES */

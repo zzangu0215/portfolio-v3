@@ -17,6 +17,7 @@
 }
 
 .portfolio-gif {
+  border-radius: 1em;
   width: 80%;
   height: 80%;
 }

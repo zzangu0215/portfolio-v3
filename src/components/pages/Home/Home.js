@@ -5,13 +5,14 @@ import portfoliogif from "../../../content/gif/gif-maker.gif";
 function Home({ handlePageChange }) {
   return (
     <div>
-      <h1>Welcome!</h1>
+      <h1>Welcome, Everyone!</h1>
       <p className="home-p">
         Thank you for coming in!
-        <br />I am Jun, and am a motivated Full Stack Web Developer!
+        <br />
+        My name is Jun. Nice to meeting you!
         <br />
         <br />
-        Stick around for a bit, look at my interesting works!
+        Hang around for a bit to take a look at my interesting works!
         <br />
         <a
           href="#contact"
