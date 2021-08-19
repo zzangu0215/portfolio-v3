@@ -20,7 +20,7 @@ function Menu({ currentPage, handlePageChange }) {
           </li>
           <li>
             <a href="#aboutme" onClick={() => handlePageChange("AboutMe")}>
-              AboutMe
+              About Me
             </a>
           </li>
           <li>
