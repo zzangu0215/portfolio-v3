@@ -5,7 +5,7 @@ import logo from "../../content/logo/logo.jpg";
 function Logo({ handlePageChange }) {
   return (
     <div>
-      <a href="#home" class="logo" onClick={() => handlePageChange("Home")}>
+      <a href="#home" className="logo" onClick={() => handlePageChange("Home")}>
         <img src={logo} alt="logo" />
       </a>
     </div>

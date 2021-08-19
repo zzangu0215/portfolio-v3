@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "./Logo/Logo";
+import Footer from "./Footer/Footer";
 import Menu from "./Menu/Menu";
 import Home from "./pages/Home/Home";
 import AboutMe from "./pages/AboutMe/AboutMe";
@@ -31,6 +32,7 @@ export default function PortfolioContainer() {
       <Logo handlePageChange={handlePageChange} />
       <Menu currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }
