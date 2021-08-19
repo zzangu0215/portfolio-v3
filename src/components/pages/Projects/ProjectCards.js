@@ -40,7 +40,10 @@ function ProjectCards(props) {
             </div>
           </a>
           <div className="tags">
-            <div className="tag">HTML</div>
+            {/* <div className="tag"></div> */}
+            {props.technologies.map((technology) => (
+              <div className="tag">{technology}</div>
+            ))}
           </div>
         </div>
       </div>

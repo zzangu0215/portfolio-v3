@@ -2,7 +2,8 @@ import React from "react";
 import ProjectCards from "./ProjectCards";
 import "./Projects.css";
 
-import projectLists from "../../../content/project-lists";
+import projectLists from "../../../content/js/project-lists";
+import mlProject from "../../../content/js/ml-project";
 
 const groupProjects = projectLists.filter((project) => project.isTeamProject);
 const personalProjects = projectLists.filter(
@@ -41,6 +42,21 @@ function Projects() {
               description={project.description}
               github_link={project.github_link}
               deployed_link={project.deployed_link}
+              technologies={project.technologies}
+            />
+          ))}
+        </div>
+
+        <h2 className="ml-projects">Machine Learning Projects</h2>
+        <div className="cards-wrapper">
+          {mlProject.map((project) => (
+            <ProjectCards
+              key={project.id}
+              name={project.name}
+              thumbnail={project.thumbnail}
+              description={project.description}
+              github_link={project.github_link}
+              deployed_link={project.youtube_link}
               technologies={project.technologies}
             />
           ))}
