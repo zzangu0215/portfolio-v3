@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from "./Logo/Logo";
 import Menu from "./Menu/Menu";
 import Home from "./pages/Home/Home";
 import AboutMe from "./pages/AboutMe/AboutMe";
@@ -27,6 +28,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
+      <Logo handlePageChange={handlePageChange} />
       <Menu currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
