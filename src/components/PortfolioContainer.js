@@ -13,7 +13,7 @@ export default function PortfolioContainer() {
   const renderPage = () => {
     switch (currentPage) {
       case "Home":
-        return <Home />;
+        return <Home handlePageChange={handlePageChange} />;
       case "AboutMe":
         return <AboutMe />;
       case "Projects":

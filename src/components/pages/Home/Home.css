@@ -1,12 +1,21 @@
-.section-center {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  z-index: 6;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+.home-p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  margin-top: 30px;
   text-align: center;
-  transform: translateY(-50%);
+}
+
+.contact-me {
+  font-family: "Roboto Mono", monospace;
+}
+
+.contact-me:hover {
+  color: #34ebde;
+}
+
+.portfolio-gif {
+  width: 80%;
+  height: 80%;
 }
