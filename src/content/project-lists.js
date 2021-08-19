@@ -47,7 +47,7 @@ const projectsData = [
     isTeamProject: false,
     thumbnail: teamPFGThumbnail,
     description:
-      "As a project manager, don't you want to have a nice team profile page? Let my Team Profile Generator do that for you! Just run my app and type information of you and your team members!",
+      "As a project manager, don't you want to have a nice team profile page? Let my Team Profile Generator do that for you!",
     github_link: "https://github.com/zzangu0215/Team-Profile-Generator",
     technologies: "JavaScript, Node.js, Inquirer, Jest",
   },

@@ -1,11 +1,29 @@
 import React from "react";
 
 function ProjectCards(props) {
-  // const url = `process.env.PUBLIC_URL/thumbnails/${props.thumbnail}`;
   const cardBgImg = {
     backgroundImage: `url(${props.thumbnail})`,
     backgroundSize: "cover",
     borderRadius: "1em",
+  };
+
+  const projectHeader = {
+    fontSize: "1.5em",
+    color: "black",
+    fontWeight: "bold",
+    WebkitTextStroke: "1px black",
+    fontFamily: "Patrick Hand",
+  };
+
+  const projectDescription = {
+    color: "black",
+    fontFamily: "Courier Prime",
+  };
+
+  const github = {
+    fontSize: "1em",
+    color: "black",
+    fontFamily: "Ubuntu Mono",
   };
 
   return (
@@ -13,11 +31,13 @@ function ProjectCards(props) {
       <div className="card">
         <div>
           <a href={props.deployed_link}>
-            <h1>{props.name}</h1>
+            <h1 style={projectHeader}>{props.name}</h1>
           </a>
-          <p>{props.description}</p>
+          <p style={projectDescription}>{props.description}</p>
           <a href={props.github_link}>
-            <div className="date">Github Repository</div>
+            <div className="github" style={github}>
+              Github Repository
+            </div>
           </a>
           <div className="tags">
             <div className="tag">HTML</div>
