@@ -155,6 +155,16 @@ function AboutMe() {
                 />
                 {", "}
               </a>
+              <a href="https://redux.js.org">
+                {" "}
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+                  alt="redux"
+                  width="40"
+                  height="40"
+                />
+                {", "}
+              </a>
               <a href="https://sass-lang.com">
                 {" "}
                 <img
@@ -194,7 +204,8 @@ function AboutMe() {
                   alt="graphql"
                   width="50"
                   height="50"
-                />{" "}
+                />
+                {", "}
               </a>
               <a href="https://nodejs.org" className="skills">
                 {"Node "}
