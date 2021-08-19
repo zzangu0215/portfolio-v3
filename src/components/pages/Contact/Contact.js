@@ -77,6 +77,9 @@ function Contact() {
         <br />
         <input id="submit" type="submit" value="Send" />
       </form>
+      <a href={process.env.PUBLIC_URL + "/JunParkResume.PDF"} download>
+        <p className="download-resume">Download Resume</p>
+      </a>
     </div>
   );
 }

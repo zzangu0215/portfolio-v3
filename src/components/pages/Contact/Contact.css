@@ -199,3 +199,14 @@ textarea:hover {
   opacity: 1;
   color: red;
 }
+
+.download-resume {
+  font-family: "Roboto Mono", monospace;
+  font-size: 25px;
+  color: #cde856;
+  text-align: center;
+}
+
+.download-resume:hover {
+  color: #34ebde;
+}
