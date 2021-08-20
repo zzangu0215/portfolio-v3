@@ -1,8 +1,9 @@
 import React from "react";
 import "./Home.css";
 import portfoliogif from "../../../content/gif/gif-maker.gif";
+import { Link } from "react-router-dom";
 
-function Home({ handlePageChange }) {
+function Home() {
   return (
     <div>
       <h1>Welcome, Everyone!</h1>
@@ -14,13 +15,9 @@ function Home({ handlePageChange }) {
         <br />
         Hang around for a bit to take a look at my interesting works!
         <br />
-        <a
-          href="#contact"
-          onClick={() => handlePageChange("Contact")}
-          className="contact-me"
-        >
-          Contact me
-        </a>{" "}
+        <Link to="/contact" className="contact-me">
+          Contact me&nbsp;
+        </Link>
         if you are interested in me or my projects!
         <br />
         <br />
@@ -28,13 +25,13 @@ function Home({ handlePageChange }) {
         <br />
         <br />
         <span>
-          <a href="#projects" onClick={() => handlePageChange("Projects")}>
+          <Link to="/projects">
             <img
               src={portfoliogif}
               alt="portfolio-gif"
               className="portfolio-gif"
             />
-          </a>
+          </Link>
         </span>
       </p>
     </div>

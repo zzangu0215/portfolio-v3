@@ -1,13 +1,14 @@
 import React from "react";
-import "./Logo.css";
+import { Link } from "react-router-dom";
 import logo from "../../content/logo/logo.jpg";
+import "./Logo.css";
 
-function Logo({ handlePageChange }) {
+function Logo() {
   return (
     <div>
-      <a href="#home" className="logo" onClick={() => handlePageChange("Home")}>
+      <Link to="/" className="logo">
         <img src={logo} alt="logo" />
-      </a>
+      </Link>
     </div>
   );
 }

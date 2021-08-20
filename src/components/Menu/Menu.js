@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Menu.css";
 
-function Menu({ currentPage, handlePageChange }) {
+function Menu() {
   return (
     <div>
       <input
@@ -14,24 +15,16 @@ function Menu({ currentPage, handlePageChange }) {
       <nav className="nav">
         <ul className="pt-5">
           <li>
-            <a href="#home" onClick={() => handlePageChange("Home")}>
-              Home
-            </a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#aboutme" onClick={() => handlePageChange("AboutMe")}>
-              About Me
-            </a>
+            <Link to="/aboutme">About Me</Link>
           </li>
           <li>
-            <a href="#projects" onClick={() => handlePageChange("Projects")}>
-              Projects
-            </a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="#contact" onClick={() => handlePageChange("Contact")}>
-              Contact
-            </a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+
 import Logo from "./Logo/Logo";
 import Footer from "./Footer/Footer";
 import Menu from "./Menu/Menu";
@@ -8,31 +10,25 @@ import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("Home");
-
-  const renderPage = () => {
-    switch (currentPage) {
-      case "Home":
-        return <Home handlePageChange={handlePageChange} />;
-      case "AboutMe":
-        return <AboutMe />;
-      case "Projects":
-        return <Projects />;
-      case "Contact":
-        return <Contact />;
-      default:
-        return <Home />;
-    }
-  };
-
-  const handlePageChange = (page) => setCurrentPage(page);
-
   return (
-    <div>
-      <Logo handlePageChange={handlePageChange} />
-      <Menu currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+    <Router>
+      <Logo />
+      <Menu />
+      <Switch>
+        <Route path="/aboutme">
+          <AboutMe />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route>
+          <Home />
+        </Route>
+      </Switch>
       <Footer />
-    </div>
+    </Router>
   );
 }
