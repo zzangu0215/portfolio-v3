@@ -18,12 +18,14 @@ function Contact() {
   const onSubmit = (data) => {
     const form = document.querySelector("#form");
     const statusMessage = document.querySelector(".status-message");
+    const messageCharsLeft = document.querySelector(".message-chars-left");
 
     generateContactNumber();
     sendForm("default_service", "template_h9d7i89", "#form").then(
       function (response) {
         console.log("SUCCESS!", response.status, response.text);
         form.reset();
+        messageCharsLeft.textContent = 2000;
         setStatusMessage("Message sent!");
         statusMessage.className = "status-message success";
         setTimeout(() => {

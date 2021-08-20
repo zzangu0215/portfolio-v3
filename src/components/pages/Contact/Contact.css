@@ -188,7 +188,8 @@ textarea:hover {
 }
 
 .status-message {
-  justify-content: center;
+  /* justify-content: center; */
+  text-align: center;
   opacity: 0;
 }
 .success {
