@@ -1,3 +1,4 @@
+import jobbeeThumbnail from "../thumbnails/jobbee.PNG";
 import myknlThumbnail from ".././thumbnails/myknl-thumbnail.PNG";
 import fantomThumbnail from ".././thumbnails/fantom-thumbnail.PNG";
 import employeeTrackerThumbnail from ".././thumbnails/employee-tracker-thumbnail.PNG";
@@ -10,6 +11,24 @@ import codequizThumbnail from ".././thumbnails/codequiz-thumbnail.PNG";
 const projectsData = [
   {
     id: 1,
+    name: "JOBBEE",
+    isTeamProject: true,
+    thumbnail: jobbeeThumbnail,
+    description:
+      "Both employers and developers! Just come to JOBBEE and meet up whoever you are looking for the jobs or looking for the talents",
+    github_link: "https://github.com/zzangu0215/jobbee",
+    deployed_link: "https://jobbee-fantom.herokuapp.com/",
+    technologies: [
+      "React",
+      "Apollo GraphQL",
+      "JavaScript",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+    ],
+  },
+  {
+    id: 2,
     name: "MyKNL ZAP",
     isTeamProject: true,
     thumbnail: myknlThumbnail,
@@ -27,7 +46,7 @@ const projectsData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "FANTOM",
     isTeamProject: true,
     thumbnail: fantomThumbnail,
@@ -38,7 +57,7 @@ const projectsData = [
     technologies: ["HTML", "CSS", "JavaScript", "BootStrap", "jQuery"],
   },
   {
-    id: 3,
+    id: 4,
     name: "Employee Tracker",
     isTeamProject: false,
     thumbnail: employeeTrackerThumbnail,
@@ -48,7 +67,7 @@ const projectsData = [
     technologies: ["JavaScript", "Node.js", "Inquirer", "MySQL"],
   },
   {
-    id: 4,
+    id: 5,
     name: "Team Profile Generator",
     isTeamProject: false,
     thumbnail: teamPFGThumbnail,
@@ -58,7 +77,7 @@ const projectsData = [
     technologies: ["JavaScript", "Node.js", "Inquirer", "Jest"],
   },
   {
-    id: 5,
+    id: 6,
     name: "Professional README Generator",
     isTeamProject: false,
     thumbnail: reademeGENThumbnail,
@@ -68,7 +87,7 @@ const projectsData = [
     technologies: ["JavaScript", "Node.js", "Inquirer"],
   },
   {
-    id: 6,
+    id: 7,
     name: "Weather Dashboard",
     isTeamProject: false,
     thumbnail: weatherDashboardThumbnail,
@@ -79,7 +98,7 @@ const projectsData = [
     technologies: ["HTML", "CSS", "JavaScript", "jQuery"],
   },
   {
-    id: 7,
+    id: 8,
     name: "Work Day Scheduler",
     isTeamProject: false,
     thumbnail: schedulerThumbnail,
@@ -90,7 +109,7 @@ const projectsData = [
     technologies: ["HTML", "CSS", "JavaScript", "jQuery"],
   },
   {
-    id: 8,
+    id: 9,
     name: "Code Quiz Challenge",
     isTeamProject: false,
     thumbnail: codequizThumbnail,
