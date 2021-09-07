@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-v3/static/css/main.2143e762.chunk.css",
-    "main.js": "/portfolio-v3/static/js/main.0e5e78c3.chunk.js",
-    "main.js.map": "/portfolio-v3/static/js/main.0e5e78c3.chunk.js.map",
+    "main.js": "/portfolio-v3/static/js/main.3cea417d.chunk.js",
+    "main.js.map": "/portfolio-v3/static/js/main.3cea417d.chunk.js.map",
     "runtime-main.js": "/portfolio-v3/static/js/runtime-main.59ee5e4d.js",
     "runtime-main.js.map": "/portfolio-v3/static/js/runtime-main.59ee5e4d.js.map",
     "static/css/2.983f79de.chunk.css": "/portfolio-v3/static/css/2.983f79de.chunk.css",
@@ -16,6 +16,7 @@
     "static/media/employee-tracker-thumbnail.eedf40bb.PNG": "/portfolio-v3/static/media/employee-tracker-thumbnail.eedf40bb.PNG",
     "static/media/fantom-thumbnail.99ed115f.PNG": "/portfolio-v3/static/media/fantom-thumbnail.99ed115f.PNG",
     "static/media/gif-maker.da47924b.gif": "/portfolio-v3/static/media/gif-maker.da47924b.gif",
+    "static/media/jobbee.481cc033.PNG": "/portfolio-v3/static/media/jobbee.481cc033.PNG",
     "static/media/jun_avatar.788d9001.png": "/portfolio-v3/static/media/jun_avatar.788d9001.png",
     "static/media/logo.f54660b5.jpg": "/portfolio-v3/static/media/logo.f54660b5.jpg",
     "static/media/ml-projects.3527ee20.PNG": "/portfolio-v3/static/media/ml-projects.3527ee20.PNG",
@@ -30,6 +31,6 @@
     "static/css/2.983f79de.chunk.css",
     "static/js/2.0f1466e5.chunk.js",
     "static/css/main.2143e762.chunk.css",
-    "static/js/main.0e5e78c3.chunk.js"
+    "static/js/main.3cea417d.chunk.js"
   ]
 }
